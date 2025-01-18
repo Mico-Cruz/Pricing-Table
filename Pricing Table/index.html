@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-style: oblique;
+        }
+
+        section{
+        width: 100%; 
+        padding: 5rem 0.8rem;
+        margin: 0 auto;
+        background-color: rgb(0, 158, 238)
+        }
+        
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        padding-top: 3rem;    
+    }
+
+    .plan {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .plan h3{
+        color: blue;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .price{
+        list-style: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+     
+    .info li{
+        margin-bottom: 1rem;
+        list-style: none;
+        padding: 0.5rem;
+        font-weight: 400;
+        
+    }
+
+    .container button{
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        outline: 0;
+        padding: 1rem;
+        border-radius: 2rem;        
+    }
+
+    .container button:hover{
+        background-color: rgb(3, 131, 191);
+        cursor: pointer;
+    }
+
+    @media (max-width: 700px) {
+        .container {
+            flex-direction: column;
+        }
+    }    
+
+
+    </style>
+</head>
+<body>
+<section>
+  <div class="container">
+     <div class="plan"> <h3>Pro Adventurer</h3>
+        <div class="price"> <h4>$2.99 / Week</h4></div>
+        <ul class="info">
+            <li>20% More Exp</li>
+            <li>20% Gold and Gem Boost</li>
+            <li>Free Skips</li>
+            <li>10 Dungeon Entries</li>
+            <li>Unlock Garamus</li>
+            <li>Unlock Doombringer</li>
+        </ul>
+        <button>Buy Offer</button>
+     </div>
+
+    <div class="plan"> <h3>Pro Adventurer</h3>
+        <div class="price"> <h4>$2.99 / Month</h4></div>
+        <ul class="info">
+            <li>20% More Exp</li>
+            <li>20% Gold and Gem Boost</li>
+            <li>Free Skips</li>
+            <li>10 Dungeon Entries</li>
+            <li>Unlock Garamus</li>
+            <li>Unlock Doombringer</li>
+        </ul>
+        <button>Buy Offer</button>
+    </div>
+
+    <div class="plan"> <h3>Pro Adventurer</h3>
+        <div class="price"> <h4>$50.99 / Year</h4></div>
+        <ul class="info">
+            <li>20% More Exp</li>
+            <li>20% Gold and Gem Boost</li>
+            <li>Free Skips</li>
+            <li>10 Dungeon Entries</li>
+            <li>Unlock Garamus</li>
+            <li>Unlock Doombringer</li>
+        </ul>
+        <button>Buy Offer</button>
+    </div>
+ </div>
+</section>
+
+    
+</body>
+</html>
